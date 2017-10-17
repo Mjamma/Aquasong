@@ -1,6 +1,8 @@
 body {
-  background: darkblue;
-  color: white;
+  background: #b5b5e2;
+  color: #161a47;
+  margin : 0;
+  padding: 0;
 }
 
 header {
@@ -8,8 +10,15 @@ header {
   background: url('image aqua.jpg');
   background-size: cover;
   height: 320px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+#TOP10 {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  border:1pxsolid #000000;
 }
