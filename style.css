@@ -1,15 +1,16 @@
 body {
   background: #b5b5e2;
-  color: #161a47;
-  margin : 0;
+  color: #f8f1f1;
+  margin : 25%;
   padding: 0;
+
 }
 
 header {
-  width: 100%;
-  background: url('image aqua.jpg');
+  background: url('index.jpg');
   background-size: cover;
-  height: 320px;
+  background-position: center;
+  height: 700px;
   display: block;
   margin-left: auto;
   margin-right: auto;
