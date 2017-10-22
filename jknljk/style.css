@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(to bottom, #33ccff 0%, #660066 100%);
+  color: #161a47;
+  margin : 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-image: url(crystal-caves-.jpg);
+  background-size: cover;
+  height: 320px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto
+ }
+
+h1 {
+ font-size: 80px;
+ color:#82C7FE;
+ margin-top: 10px;
+ margin-bottom: 50px;
+ text-align: center ;
+}
+
+#nom {
+  font-size: 20px;
+  color: white;
+  font-family: fantasy;
+  margin-left: 10px:
+}
+
+
+#navcontainer section {
+ margin-top: 25px;
+ margin-bottom: 50%;
+ margin-right: 50px;
+ margin-left: 50px;
+
+}
+
+
+#navlist li {
+ background:#FFF5EE;
+ border: 10px solid;
+ border-color : #FFF5EE;
+ display: inline;
+ list-style-type: none;
+ margin-top: 25px;
+ height: 25%;
+ font-size: 25px;
+ font-family: fantasy;
+}
+
+#musique {
+ width: 800px;
+ height:100px;
+ font-family: fantasy;
+ frameborder: 0px;
+}
+
+a {
+  color: #2E8B57;
+  font-size: 1Opx;
+ }
+
+
+#TOP10 {
+  background: #FFFFFF;
+  border: 10px #2E8B57 dotted;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+#recommandation {
+  background-image: url(bulleground.jpg);
+  text-align: center;
+  font-size: 25px;
+  font-family: fantasy;
+  color: #F0FFFF;
+}
+
+#recherche {
+  display: inline;
+}
+
+#recherche form {
+  display: inline;
+}

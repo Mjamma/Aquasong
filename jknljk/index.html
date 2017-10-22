@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+ <header>
+
+  <img style="opacity:0.4;filter:alpha(opacity=40)" height="150" src="as.jpg" >
+  <p id="nom" > AQUA-SONG </p>
+  <h1> Entre dans ta bulle et évade toi </h1>
+
+ </header>
+
+<section id="navcontainer"> <!--Pour fixer le menu et la barre de recherche-->
+
+  <nav>
+
+    <ul id="navlist"> <!-- Le menu-->
+    <li id="active"><a href="#" id="current">Accueil</a></li>
+    <li><a href="page2.html">S'inscrire</a></li>
+    <li><a href="page3.html">Se connecter</a></li>
+    <li><a href="page4.html">Autres classements</a></li>
+    <li>
+    <div id="recherche"> <!--la barre de recherche-->
+    <form action="/search" id="searchthis" method="get">
+    <input id="tape" name="q" type="text" placeholder="Rechercher" />
+    <input id="button" type="submit" value="OK" />
+    </form>
+    </div>
+    </li>
+    </ul>
+
+  </nav>
+
+</section>
+
+<section id="TOP10"> <!--Le classement-->
+
+ <h2> LES SONS DU MOMENT </h2>
+ <ol id="musiques">
+ </ol>
+
+</section>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<section id="recommandation">  <!--Leformulaire de recherche-->
+
+ <h3> FORMULAIRE DE RECOMMANDATION</h3>
+
+  <form action="/signup" method="post"
+  <p>
+  <label> Nom &  Prénom</label><br>
+  <input type="text" name="Nom_&_Prénom"
+  </p>
+  <p>
+  <label> Ton artiste à nous recommander : <label><br>
+  <input type="text" name="first_name">
+  </p>
+  <label> Ton morceau à nous recommander : <label><br>
+  <input type="text" name="first_name">
+  </p>
+  <p>
+  <label> Les hashtag auxquels tu affilies ta chanson & ton artiste : <label><br>
+  <input type="text" name="first_name">
+  </p>
+  <p>
+  <label>Origine<label><br>
+    <select>
+      <option>Asie</option>
+      <option>Europe</option>
+      <option>USA</option>
+      <option>Amerique du Sud</option>
+      <option>Oceanie</option>
+   </p>
+   <p>
+   <label> Valider le formulaire<label><br>
+    <input type="submit" name="nom" value="Envoyer">
+    </p>
+    <form>
+</section>
+
+</body>
+
+  <center><iframe width="400" height="250" src="https://www.youtube.com/embed/K6KOQQ5vtpo" frameborder="0" allowfullscreen></iframe></center>
+
+<details>
+  <summary>Copyright 2017.</summary>
+  <p> - Auteurs :MJ&RR </p>
+</details>
+
+<p>Posté par Maurice Jammal & Ranusha Ragavan</p>
+
+<center><textarea rows="4" cols="50">  <!--Message de bienvenue-->
+Message : Bienvenue sur la page du son dans une ambiance aquatique !
+
+
+<footer> <!-- Le pied de page-->
+
+ <p>Posté par Maurice Jammal & Ranusha Ragavan</p>
+ <p>Contact information: <a href=" cilae@live.fr">
+ cilae@live.fr</a>.</p>
+
+
+
+ </footer>
